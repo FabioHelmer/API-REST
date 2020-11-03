@@ -1,7 +1,10 @@
 dist: xenial
 language: java
 os: windows
+script: ./mvnw clean install
+
 jdk:
   - openjdk8
+
 before_install:
   - chmod +x mvnw
